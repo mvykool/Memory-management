@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lato } from "next/font/google";
 import "../style/globals.css";
 import Navbar from "../components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const lato = Lato({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={lato.className}>
         <main className="flex flex-col bg-space-black justify-center items-center">
           <div className="w-4/6 bg-space-black overflow-y-auto">
             <Navbar></Navbar>

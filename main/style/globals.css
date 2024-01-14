@@ -4,6 +4,7 @@
 
 body {
   color: #fff;
+  overflow-y: hidden;
 }
 
 .bg-img {

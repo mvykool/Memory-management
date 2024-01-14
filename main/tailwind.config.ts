@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         "space-black": "#06050F",
+        "neon-purple": "#C949AB",
       },
     },
   },
