@@ -11,7 +11,9 @@
   ],
   "overrides": [
     {
-      "files": ["**/*.js"]
+      "files": [
+        "**/*.js"
+      ]
     }
   ],
   "parserOptions": {
@@ -20,14 +22,26 @@
     "parser": "@typescript-eslint/parser",
     "project": "./tsconfig.json"
   },
-  "plugins": ["react", "@next/next"],
+  "plugins": [
+    "react",
+    "@next/next"
+  ],
+  "ignorePatterns": [
+    "./next-env.d.ts"
+  ],
   "rules": {
-    "quotes": ["error", "double"],
+    "quotes": [
+      "error",
+      "double"
+    ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".ts", ".tsx"]
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ]
       }
     ]
   },

@@ -1,10 +1,13 @@
 "use client";
-import React from 'react'
+import React from "react";
 
 const Navbar = (): JSX.Element => {
   return (
-    <nav className='text-white'> <p>hola</p></ nav>
-  )
-}
+    <nav className="text-white">
+      {" "}
+      <p>hola</p>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
