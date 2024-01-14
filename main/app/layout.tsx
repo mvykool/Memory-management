@@ -18,8 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar></Navbar>
-        {children}
+        <main className="flex flex-col justify-center items-center">
+          <Navbar></Navbar>
+          {children}
+        </main>
       </body>
     </html>
   );
