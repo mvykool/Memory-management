@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url("https://images.hdqwalls.com/wallpapers/a-neon-city-4m.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  background-size: cover;
+  backdrop-filter: blur(55px);
+  overflow-y: hidden;
+}
