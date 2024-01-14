@@ -13,7 +13,8 @@ const lato = Lato({
 export default function Home(): JSX.Element {
   return (
     <div className="flex min-h-screen">
-      <div className="w-3/6 my-52">
+      <div className="bg-img blur-3xl"></div>
+      <div className="w-3/6 my-52 z-10">
         <h1 className={roboto.className + " text-6xl my-3 font-semibold"}>
           Production ready components
         </h1>

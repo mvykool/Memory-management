@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 body {
-  background-image: url("https://images.hdqwalls.com/wallpapers/a-neon-city-4m.jpg");
-  background-repeat: no-repeat;
   color: #fff;
-  background-size: cover;
-  backdrop-filter: blur(55px);
-  overflow-y: hidden;
+}
+
+.bg-img {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231008/pngtree-neon-city-3d-rendering-immersive-retrowave-background-image_13525498.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  /* Adjust the left positioning to center the div */
+  top: 50%;
+  /* Adjust the top positioning to center the div */
+  transform: translate(-50%, -50%);
 }
