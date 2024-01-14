@@ -11,7 +11,6 @@
     "format": "prettier --write .",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
-    "check-lint": "eslint . --ext ts --ext tsx --ext js",
     "prepare": "cd .. && husky install main/.husky"
   },
   "dependencies": {
