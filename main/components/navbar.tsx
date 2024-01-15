@@ -9,7 +9,7 @@ const roboto = Roboto({
 
 const Navbar = (): JSX.Element => {
   return (
-    <nav className="text-white flex py-4 justify-between container">
+    <nav className="text-white flex pt-5 justify-between container">
       <div>
         <h3 className={roboto.className + " text-3xl"}>
           <span className="bg-clip-text inline-block text-transparent bg-gradient-to-br from-rose-100 to-pink-500">
