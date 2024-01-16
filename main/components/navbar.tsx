@@ -28,7 +28,7 @@ const Navbar = (): JSX.Element => {
           <a className="cursor-pointer">Templates</a>
         </li>
 
-        { /* git respo button */}
+        {/* git respo button */}
         <RepoButton></RepoButton>
       </ul>
     </nav>
