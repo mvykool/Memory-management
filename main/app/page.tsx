@@ -5,7 +5,7 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
-const text: string = "Browse Components";
+const text: string = "Explore Components";
 
 export default function Home(): JSX.Element {
   return (
