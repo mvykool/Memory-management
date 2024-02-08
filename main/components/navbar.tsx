@@ -2,6 +2,7 @@
 import React from "react";
 import { Roboto } from "next/font/google";
 import RepoButton from "./repoButton";
+import Link from "next/link";
 
 const roboto = Roboto({
   weight: "900",
@@ -22,7 +23,12 @@ const Navbar = (): JSX.Element => {
 
       <ul className="flex gap-6 font-semibold items-center">
         <li>
-          <a className="cursor-pointer hover:text-neon-purple">Components</a>
+          <Link
+            href="/components"
+            className="cursor-pointer hover:text-neon-purple"
+          >
+            Components
+          </Link>
         </li>
         <li>
           <a className="cursor-pointer hover:text-neon-purple">Templates</a>

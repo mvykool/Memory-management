@@ -3,5 +3,5 @@ export default function Components(): JSX.Element {
     <div>
       <h1>Components</h1>
     </div>
-  )
+  );
 }
