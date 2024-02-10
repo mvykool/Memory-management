@@ -1,4 +1,3 @@
-
 export default function Templates(): JSX.Element {
   return (
     <div>
