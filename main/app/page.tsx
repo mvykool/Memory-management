@@ -28,8 +28,10 @@ export default function Home(): JSX.Element {
             <Button buttonText={text}></Button>
           </div>
 
-          <Card />
-          <LandingButton />
+          <div className="flex flex-col gap-4">
+            <Card />
+            <LandingButton />
+          </div>
         </div>
       </div>
     </div>
