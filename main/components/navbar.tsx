@@ -22,10 +22,10 @@ const Navbar = (): JSX.Element => {
 
       <ul className="flex gap-6 font-semibold items-center">
         <li>
-          <a className="cursor-pointer">Components</a>
+          <a className="cursor-pointer hover:text-neon-purple">Components</a>
         </li>
         <li>
-          <a className="cursor-pointer">Templates</a>
+          <a className="cursor-pointer hover:text-neon-purple">Templates</a>
         </li>
 
         {/* git respo button */}

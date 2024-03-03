@@ -6,7 +6,7 @@ interface CustomButtonProps {
 
 const Button = ({ buttonText }: CustomButtonProps): JSX.Element => {
   return (
-    <button className="my-7 bg-neon-purple px-5 py-2 rounded-sm">
+    <button className="my-7 bg-neon-purple px-5 py-2 rounded-sm w-[15rem] text-center">
       {buttonText}
     </button>
   );
