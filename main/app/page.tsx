@@ -1,6 +1,7 @@
 import { Roboto } from "next/font/google";
 import Button from "../components/button";
 import Card from "../components/card";
+import LandingButton from "@/components/landingButton";
 const roboto = Roboto({
   weight: "900",
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function Home(): JSX.Element {
           </div>
 
           <Card />
+          <LandingButton />
         </div>
       </div>
     </div>
