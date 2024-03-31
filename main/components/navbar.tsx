@@ -31,7 +31,12 @@ const Navbar = (): JSX.Element => {
           </Link>
         </li>
         <li>
-          <Link href="/templates" className="cursor-pointer hover:text-neon-purple">Templates</Link>
+          <Link
+            href="/templates"
+            className="cursor-pointer hover:text-neon-purple"
+          >
+            Templates
+          </Link>
         </li>
 
         {/* git respo button */}
