@@ -12,7 +12,7 @@ const text: string = "Explore Components";
 export default function Home(): JSX.Element {
   return (
     <div className="flex min-h-screen">
-      <div className="bg-img blur-3xl"></div>
+      <div className=" blur-3xl"></div>
       <div className="w-5/6 my-52 z-10">
         <div className="flex justify-between w-full">
           <div className="flex gap-4 flex-col w-3/6">
