@@ -6,3 +6,13 @@ body {
   color: #fff;
   overflow-y: hidden;
 }
+
+.nav-bar {
+  display: flex;
+  background: trasnparent;
+  color: red;
+}
+
+.button-special {
+  padding: 0;
+}
