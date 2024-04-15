@@ -23,3 +23,8 @@ body {
   width: 100%;
   display: flex;
 }
+
+.card {
+  width: 100%;
+  background: whitesmoke;
+}
