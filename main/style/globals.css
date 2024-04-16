@@ -27,4 +27,5 @@ body {
 .card {
   width: 100%;
   background: whitesmoke;
+  border-radius: 5px;
 }
