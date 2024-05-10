@@ -49,3 +49,7 @@ body {
 .border-rounded {
   border-radius: 5%;
 }
+
+.cursor {
+  padding: 0;
+}
