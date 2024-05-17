@@ -6,26 +6,3 @@ body {
   color: #fff;
   overflow-y: hidden;
 }
-
-.nav-bar {
-  display: flex;
-  background: trasnparent;
-  color: black;
-}
-
-.button-special {
-  padding: 0;
-  margin: 0;
-  font-size: 28px;
-}
-
-.layout-spacing {
-  width: 100%;
-  display: flex;
-}
-
-.card {
-  width: 100%;
-  background: whitesmoke;
-  border-radius: 5px;
-}
