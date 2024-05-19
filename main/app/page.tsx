@@ -22,7 +22,7 @@ export default function Home(): JSX.Element {
             <p className="w-5/6 text-lg tracking-wide opacity-85">
               {" "}
               Beautifully designed, expertly crafted components and templates,
-              built by the makers of Tailwind CSS. The perfect starting point
+              built by digital artists. The perfect starting point
               for your next project.
             </p>
             <Button buttonText={text}></Button>
