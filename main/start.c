@@ -11,6 +11,9 @@ int main() {
   int max_recursive_calls = 100;
   char io_mode = 'w';
   float throttle_speed = 0.2;
+  // unlike char, that requires single quotes '', char * requires double quotes ""
+  char *will_never_hear_again =
+      "Hey TJ, when is the memory course in C gonna be done?";
 
   // don't touch below this line
   printf("Max recursive calls: %d\n", max_recursive_calls);
