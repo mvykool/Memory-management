@@ -46,3 +46,12 @@ int main() {
   return 0;
 }
 
+//When updating a variable's value, you don't need to redeclare the type. In fact, you can't.:
+
+int main() {
+  int sneklang_int_size = 64;
+  sneklang_int_size = 32;
+  printf("Sneklang int size: %d bits\n", sneklang_int_size);
+  return 0;
+}
+
